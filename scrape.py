@@ -58,10 +58,6 @@ def get_all_links():
     return all_links
 
 
-def download_item_html(url):
-    pass
-
-
 if __name__ == '__main__':
     if not os.path.isfile('all-links.txt'):
         get_all_links()
